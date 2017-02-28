@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		603F66EC1E5C4CD90043EC3A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603F66EB1E5C4CD90043EC3A /* SettingsViewController.swift */; };
 		60B047A21DE452F500D63D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B047A11DE452F500D63D92 /* AppDelegate.swift */; };
 		60B047A41DE452F500D63D92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B047A31DE452F500D63D92 /* ViewController.swift */; };
 		60B047A71DE452F500D63D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B047A51DE452F500D63D92 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		603F66EB1E5C4CD90043EC3A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		60B0479E1DE452F500D63D92 /* MyPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B047A11DE452F500D63D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60B047A31DE452F500D63D92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				60B047A11DE452F500D63D92 /* AppDelegate.swift */,
 				60B047A31DE452F500D63D92 /* ViewController.swift */,
+				603F66EB1E5C4CD90043EC3A /* SettingsViewController.swift */,
 				60B047A51DE452F500D63D92 /* Main.storyboard */,
 				60B047A81DE452F500D63D92 /* Assets.xcassets */,
 				60B047AA1DE452F500D63D92 /* LaunchScreen.storyboard */,
@@ -194,15 +197,18 @@
 					60B0479D1DE452F500D63D92 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 25HVAF59JM;
+						LastSwiftMigration = 0820;
 					};
 					60B047B11DE452F500D63D92 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 25HVAF59JM;
+						LastSwiftMigration = 0820;
 						TestTargetID = 60B0479D1DE452F500D63D92;
 					};
 					60B047BC1DE452F500D63D92 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 25HVAF59JM;
+						LastSwiftMigration = 0820;
 						TestTargetID = 60B0479D1DE452F500D63D92;
 					};
 				};
@@ -261,6 +267,7 @@
 			files = (
 				60B047A41DE452F500D63D92 /* ViewController.swift in Sources */,
 				60B047A21DE452F500D63D92 /* AppDelegate.swift in Sources */,
+				603F66EC1E5C4CD90043EC3A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +413,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MyPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -417,6 +425,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MyPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -428,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MyPhotoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPhoto.app/MyPhoto";
 			};
 			name = Debug;
@@ -440,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MyPhotoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPhoto.app/MyPhoto";
 			};
 			name = Release;
@@ -451,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MyPhotoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = MyPhoto;
 			};
 			name = Debug;
@@ -462,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MyPhotoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = MyPhoto;
 			};
 			name = Release;
@@ -485,6 +498,7 @@
 				60B047C81DE452F500D63D92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60B047C91DE452F500D63D92 /* Build configuration list for PBXNativeTarget "MyPhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +507,7 @@
 				60B047CB1DE452F500D63D92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60B047CC1DE452F500D63D92 /* Build configuration list for PBXNativeTarget "MyPhotoUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +516,7 @@
 				60B047CE1DE452F500D63D92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
